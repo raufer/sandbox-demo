@@ -7,7 +7,7 @@ def solve_lorenz(sigma=10.0, beta=8./3, rho=28.0):
     """Plot a solution to the Lorenz differential equations."""
 
     max_time = 4.0
-    N = 50
+    N = 30
 
     fig = plt.figure()
     ax = fig.add_axes([0, 0, 1, 1], projection='3d')
